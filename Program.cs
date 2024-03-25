@@ -87,7 +87,7 @@ class Program
 
     static void Main(string[] args)
     {
-        string folder = @"D:\Trickster\data"; // Change to your .xml folder
+        string folder = @"D:\Trickster\data"; // Change to your ItemData.xml (From TSGive) folder
         string imagesFolder = @"D:\Trickster\data\image"; // Change to your extracted .gif images folder
         var fileInfos = ReadXmlFiles(folder);
         RenameGifs(imagesFolder, fileInfos);
